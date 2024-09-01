@@ -1,18 +1,18 @@
 /*********************************************************************
- *          stu-srvcs-pac-automated-cal-appointment-project	         *
- * 	                                                                 *
- * Author: Alvaro Gomez 	                                           *
- * 		     Academic Technology Coach 	                               *
- * 		     Northside Independent School District 	                   *
- * 		     alvaro.gomez@nisd.net	                                   *
- * 		     Office: +1-210-397-9408	                                 *
+ *          stu-srvcs-pac-automated-cal-appointment-project          *
+ *                                                                   *
+ * Author: Alvaro Gomez                                              *
+ *         Academic Technology Coach                                 *
+ *         Northside Independent School District                     *
+ *         alvaro.gomez@nisd.net                                     *
+ *         Office: +1-210-397-9408                                   *
  *         Mobile: +1-210-363-1577                                   *
- * 	                                                                 *
+ *                                                                   *
  * Purpose: This script will run when a submission is made on the    *
  *          associated Google Form. The script will invite a         *
  *          registrant by adding the submitted email address to a    *
- *          calendar appointment. 	                                 *
- * 	                                                                 *
+ *          calendar appointment.                                    *
+ *                                                                   *
  * Usage: @todo Create a Google Form with the necessary fields (i.e  *
  *        Name, email address). @todo Create the appointment for the *
  *        event on the organizer's Google Calendar. @todo Get the    *
@@ -21,7 +21,7 @@
  *        can be used to identify the event's id. @todo Set a        *
  *        trigger to run addParticipantsToEvent() when a form is     *
  *        submitted.                                                 *
- * 	                                                                 *
+ *                                                                   *
  ********************************************************************/
 
 function addParticipantsToEvent() {
